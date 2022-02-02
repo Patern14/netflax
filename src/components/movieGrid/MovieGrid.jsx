@@ -5,7 +5,7 @@ import './movieGrid.scss';
 
 import MovieCard from '../movieCard/MovieCard';
 import Button, { OutlineButton } from '../button/Button';
-//import Input from '../input/Input'
+import Input from '../input/Input'
 
 import tmdbApi, { category, movieType, tvType } from '../../api/tmdbApi';
 
@@ -117,12 +117,12 @@ const MovieSearch = props => {
 
     return (
         <div className="movie-search">
-            {/* <Input
+            <Input
                 type="text"
                 placeholder="Enter keyword"
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
-            /> */}
+            />
             <Button className="small" onClick={goToSearch}>Search</Button>
         </div>
     )

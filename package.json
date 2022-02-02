@@ -1,5 +1,6 @@
 {
   "name": "netflax",
+  "homepage": "http://netflax.chewam.uk/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

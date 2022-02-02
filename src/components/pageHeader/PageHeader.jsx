@@ -2,7 +2,8 @@ import React from 'react';
 
 import './pageHeader.scss';
 
-import bg from '../../assets/footer-bg.jpg';
+//import bg from '../../assets/footer-bg.jpg';
+import bg from '../../assets/footer-bg3.jpg';
 
 const PageHeader = props => {
     return (
