@@ -27,12 +27,17 @@
 
     button {
         position: absolute;
-        right: 0;
-        top: 2px;
+        right: 0px;
+        top: 1px;
 
         @include mobile {
-            right: 1px;
-            top: 1px;
+            right: 0px;
+            top: 0px;
+        }
+
+        @include tablet {
+            right: 0px;
+            top: 0px;
         }
     }
 }
